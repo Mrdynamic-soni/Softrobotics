@@ -1,4 +1,4 @@
-import React, { createContext, useRef, useState } from 'react';
+import React, {useRef, useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
@@ -12,7 +12,7 @@ const Card = (props) => {
     const num = useRef(0);
 
     const incdec1 = () => {
-        if (inc == 0)
+        if (inc === 0)
             setInc(0);
         else
             setInc(inc - 1);

@@ -1,7 +1,7 @@
-import React,{useState, useEffect} from 'react';
+import React from 'react';
 import Card from './Card';
 const MovieCard = () => {
-    const url = "http://www.omdbapi.com/?i=tt3896198&apikey=2b5dce77";
+    // const url = "http://www.omdbapi.com/?i=tt3896198&apikey=2b5dce77";
     // const [movie, setMovie] = useState;
     // const getdata = async()=>{
     //     const response = await fetch(url);

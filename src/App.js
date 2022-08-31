@@ -11,7 +11,7 @@ const App = () => {
     <>
       <Routes>
         <Route exact path="/" element={<Navbar />} />
-        <Route path="/moviecard" element={<MovieCard />} />
+        <Route exact path="/moviecard" element={<MovieCard />} />
       </Routes>
     </>
   )
